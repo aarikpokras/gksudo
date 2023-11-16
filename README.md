@@ -1,4 +1,8 @@
-# gksudo
+<div align = "center">
+  
+  # <img alt = "gksudo" src = "/img/gksudo_log-crop.png" style = "width:700px;" />
+
+</div>
 Graphically prompt for the user's password, then execute all arguments as root.
 
 ## Installation
