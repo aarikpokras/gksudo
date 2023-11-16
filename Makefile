@@ -1,12 +1,12 @@
 # Makefile
 # 
 # gksudo
-# Have all be `warn`
+# Have all be `warn man_install` x
 # Should only be run after configure.sh is run.
 #
 all: warn man_install
 warn:
-	@echo Run `sudo make install` to install.
+	@echo Run \`sudo make install\` to install.
 bash_install:
 	mv gksudo.sh gksudo
 	sudo cp gksudo /usr/local/bin/
