@@ -24,6 +24,6 @@ git clone https://github.com/aarikpokras/gksudo.git
 ```
 Download the zip with `curl`:
 ```console
-curl -Lo gksudo.zip https://github.com/aarikpokras/gksudo/archive/refs/heads/master.zip
+curl -#Lo gksudo.zip https://github.com/aarikpokras/gksudo/archive/refs/heads/master.zip
 ```
 Or you can [download the zip file from the link](https://github.com/aarikpokras/gksudo/archive/refs/heads/master.zip).
