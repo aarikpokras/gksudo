@@ -1,1 +1,26 @@
-
+.\" aarikpokras/gksudo Man Page
+.\" Start to integrate `zenity` into gh repo - MAKE SURE TO ATTRIBUTE
+.\"
+.\"
+.TH GKSUDO 1 "2023-11-15" "1.0" "gksudo Man Page"
+.SH NAME
+gksudo \- Prompt graphically for the user's password, then execute all arguments as root
+.SH SYNOPSIS
+\fBgksudo\fR [command]
+.SH DESCRIPTION
+\fBgksudo\fR allows a permitted user (as defined by the \fIsudoers\fR(5) file).
+.br
+.br
+Please read \fIsudo\fR(8) for more information on sudo and \fIzenity\fR(1) for more information on GTK+ dialogs.
+.br
+.br
+\fBgksudo\fR does not accept all of the arguments that \fIsudo\fR(8) does. Please try it out and submit an issue
+.br
+on the GitHub.
+.br
+.br
+Upon installation, you can choose to use the Perl version or the Bash version.
+.SH BUGS
+If you find a bug, please contact \fIme@aarikpokras.com\fR or submit an issue on the GitHub page.
+.SH SEE ALSO
+\fIsudo\fR(8), \fIzenity\fR(1), \fIbash\fR(1), \fIperl\fR(1)
