@@ -1,0 +1,19 @@
+# gksudo installation guide.
+# Contact me@aarikpokras.com with any questions or concerns.
+
+Installing
+==========
+1. Run the configuration file.
+```
+sh configure.sh
+```
+2. Install any missing packages as determined by the script. Here's a list of all the packages you'll need:
+  * sudo
+  * zenity
+  * bash
+  * make
+  * perl
+3. Install the program:
+```
+sudo make install
+```
