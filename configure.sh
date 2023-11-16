@@ -5,7 +5,7 @@ printf "Checking for bash..."; if [ $(hash bash >& /dev/null; echo $?) -eq 0 ]; 
 printf "Checking for make..."; if [ $(hash make >& /dev/null; echo $?) -eq 0 ]; then echo yes; else printf "\e[1;31mno\e[0m\n"; fi
 printf "Checking for perl..."; if [ $(hash perl >& /dev/null; echo $?) -eq 0 ]; then echo yes; else printf "\e[1;31mno\e[0m\n"; fi
 printf "Creating Makefile..."
-if [[ "$(cat Makefile | head -n7 | tail -n1)" =~ "/all/" ]]; then echo no need
+if [[ "$(cat Makefile)" =~ "man_install" ]]; then echo no need
 else
 echo -e \
 "all: warn man_install\n"\
