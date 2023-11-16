@@ -18,6 +18,7 @@ sudo yum install zenity
 ```
 
 Download gksudo:
+
 With git:
 ```console
 git clone https://github.com/aarikpokras/gksudo.git
